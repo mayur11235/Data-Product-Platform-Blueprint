@@ -1,7 +1,7 @@
 
 # Data Products Platform Blueprint
 
-This article is shaped by my experience of building data products platforms across two different organizations, where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation. So let’s get started.
+This article is based on my experience of building data products platforms across two different organizations, where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation. So let’s get started.
 
 ## Why do we need data products
 
