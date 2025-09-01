@@ -3,7 +3,7 @@
 
 This article is based on my experience of building data products platforms across two different organizations, where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation. So let’s get started.
 
-## Why do we need data products
+## Why do we need Data Products
 
 The main reason for building data products is the prevalence of data silos and legacy systems, which hinder seamless data integration and limit the potential of analytics projects across the enterprise. The lack of robust data governance can lead to fragmented and unreliable data, making it difficult to generate accurate and actionable insights. 
 
@@ -13,7 +13,7 @@ The aim of data platform should be to reduce the complexity of these systems and
 
 The main challenge in adopting data products is the need for a significant cultural shift, technical complexity and organizational silos. The adoption of data products can also be hindered by resistance to change, which can be addressed by involving users in the implementation process and emphasizing the benefits of the new system.
 
-## Foundational data products
+## Foundational Data Products
 
 Building data products begin with foundational data products, a new type of digital product, setting aside transactional and analytical applications, whose goal is to expose high-quality data in its pure form to support the development of other applications (consumer ready data products). Foundational data products aim to expose data to support multiple use cases, both of analytical and transactional nature. Their value is greater when the data is of high quality, easily accessible, and reusable over time.
 
@@ -29,7 +29,7 @@ The metadata associated with data product goes beyond describing the exposed dat
 
 On the other hand, metadata describing its internal components (applications and infrastructure) are private. In other words, they are visible only to the product team and potentially to the tools used to automate the product life cycle management.
 
-## Application and infrastructure
+## Application and Infrastructure
 
 A data product is also composed of applications and infrastructural resources. The applications implement the necessary business logic to transform the data (data pipelines) and, more generally, to provide all the services exposed by a pure data product through its interfaces.
 
@@ -198,7 +198,7 @@ The first step is to **isolate** legacy systems to protect new data products fro
 
 This incremental, business-driven approach minimizes risk and ensures that the migration delivers value at every step.
 
-## From Data Products to a Knowledge Graph: Unlocking Intelligence
+## From Data Products to Knowledge Graph: Unlocking Intelligence
 
 Data products are the foundation for building a knowledge graph and unlocking intelligence. This process goes beyond simply providing raw data by adding context, knowledge, and relationships.
 
