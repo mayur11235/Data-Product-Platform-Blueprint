@@ -142,19 +142,6 @@ Data quality checks and anomaly detection are essential processes for ensuring t
 
 Anomaly detection can catch unexpected data issues that might be missed by standard, rule-based quality checks.
 
-## Managing the Data Product Marketplace
-
-A key function of the platform is to support the use of released data products through a **marketplace**. This marketplace should provide a user-friendly catalog of all available data products.
-
-The catalog acts as a central hub, offering clear visibility into the **data product portfolio** and the relationships between products. It displays crucial information for users, including:
-
-- The **development teams** responsible for each product.
-- The **business cases** the products are designed to support.
-- The specific **physical assets** exposed by each product.
-- The **concepts in the defined ontologies** that the products reference.
-
-This comprehensive overview enables users to easily discover and understand how different data products connect and what purpose they serve.
-
 ## Utility Plane
 
 In a data products platform, the **Control Plane**, **Data Plane**, and **Utility Plane** work together to manage the full lifecycle of data products. While the Control Plane manages the internal lifecycle and governance, and the Data Plane serves as the platform's "muscle" where data is stored and processed, this section will focus on the equally important, yet less discussed, **Utility Plane**.
@@ -173,6 +160,18 @@ Key capabilities include:
 
 - **Configuration Management**: This allows the platform to read, create, and modify configurations in external systems, such as retrieving secrets from a secure vault.
 
+## Managing the Data Product Marketplace
+
+A key function of the platform is to support the use of released data products through a **marketplace**. This marketplace should provide a user-friendly catalog of all available data products.
+
+The catalog acts as a central hub, offering clear visibility into the **data product portfolio** and the relationships between products. It displays crucial information for users, including:
+
+- The **development teams** responsible for each product.
+- The **business cases** the products are designed to support.
+- The specific **physical assets** exposed by each product.
+- The **concepts in the defined ontologies** that the products reference.
+
+This comprehensive overview enables users to easily discover and understand how different data products connect and what purpose they serve.
 
 ## Integrating Legacy Systems with Pseudo-Data Products
 
