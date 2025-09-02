@@ -96,15 +96,16 @@ Once in the lakehouse, the data undergoes a process called **Change Data Capture
 
 ### Build Domain Integrated Data Products
 
-The mastered source data may not be at the same level of detail, or "grain," needed for the foundational data products. If needed, the data is **aggregated** to the correct grain. This aggregated data along with mastered data is then used to create a **daily snapshot** or a foundational data product. A data product can represent an **event** (like daily transactions) or an **entity** (like a customer). An entity product consolidates data from multiple events or other entities within a domain. At this stage, various transformations are applied to enrich the data.
+The mastered source data may not be at the same level of detail, or "grain," needed for the foundational data products. If needed, the data is **aggregated** to the correct grain. This aggregated data along with mastered data is then used to create a **daily snapshot** of foundational data product. A data product can represent an **event** (like daily transactions) or an **entity** (like a customer). An entity product consolidates data from multiple events or other entities within a domain. At this stage, various transformations are applied to enrich the data.
 
 The daily snapshots from multiple foundational products are combined and aggregated for counts and amounts. These can then be merged into building LTD and time series grains. This is where windowing functions are used to calculate the cumulative totals.The result is an aggregate data product that provides historical and cumulative context for a business domain.
 
 Reference data is also integrated into reference domain that is later use to decode codes or key values during consumption or reporting.
 
 ### Consumption/Presentation Layer
-The data products are further processed for different consumption use cases. **Bridge tables** are created to establish relationships between data, which is then used to build **fact and dimension tables** for data marts. This prepares the data for specific business intelligence (BI) and reporting needs. Data cubes can also be built from these data products. The resulting data assets provide not just raw information but also valuable **context through metadata**. This metadata, represented by ontologies and a **knowledge graph**, can be used to unlock deeper insights and power intelligent applications.
+**Bridge tables** are created to establish relationships between data, which is then used to build fact and dimension tables for data marts. This prepares the data for specific business intelligence (BI) and reporting needs. Data cubes can also be built from these data products. The resulting data assets provide not just raw information but also valuable context through metadata. This metadata, represented by ontologies and a knowledge graph, can be used to unlock deeper insights and power intelligent applications.
 ![Data Product Pipeline](images/Picture2.png)
+
 ## Data Transformation
 
 **Data transformation** is the central process in a data pipeline that converts raw, often messy, data into a clean, unified, and business-ready format. It's the "kernel" of the data product engine. Key transformation activities include:
