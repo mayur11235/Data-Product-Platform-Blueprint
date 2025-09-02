@@ -1,5 +1,5 @@
 
-# Data Products Platform Blueprint
+# Data Product Platform Blueprint
 
 This article is based on my experience of building data products platforms where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation.
 
