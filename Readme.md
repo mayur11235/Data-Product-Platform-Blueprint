@@ -88,7 +88,7 @@ The daily snapshots from multiple foundational products are combined and aggrega
 
 Reference data is also integrated into reference domain that is later use to decode codes or key values during consumption or reporting.
 
-### Consumption/Presentation Layer
+### Consumption Ready
 **Bridge tables** are created to establish relationships between data, which is then used to build fact and dimension tables for data marts. This prepares the data for specific business intelligence (BI) and reporting needs. Data cubes can also be built from these data products. The resulting data assets provide not just raw information but also valuable context through metadata. This metadata, represented by ontologies and a knowledge graph, can be used to unlock deeper insights and power intelligent applications.
 ![Data Product Pipeline](images/Picture2.png)
 
@@ -160,6 +160,19 @@ Key capabilities include:
 
 - **Configuration Management**: This allows the platform to read, create, and modify configurations in external systems, such as retrieving secrets from a secure vault.
 
+## Managing the Data Product Marketplace
+
+A key function of the platform is to support the use of released data products through a **marketplace**. This marketplace should provide a user-friendly catalog of all available data products.
+
+The catalog acts as a central hub, offering clear visibility into the **data product portfolio** and the relationships between products. It displays crucial information for users, including:
+
+- The **development teams** responsible for each product.
+- The **business cases** the products are designed to support.
+- The specific **physical assets** exposed by each product.
+- The **concepts in the defined ontologies** that the products reference.
+
+This comprehensive overview enables users to easily discover and understand how different data products connect and what purpose they serve.
+
 ## Integrating Legacy Systems with Pseudo-Data Products
 
 Dealing with legacy data systems during a data-as-a-product migration is common. Instead of a risky "big-bang" migration, an incremental approach is better. This strategy involves isolating and then gradually refactoring legacy systems based on actual business needs.
@@ -181,19 +194,6 @@ The first step is to **isolate** legacy systems to protect new data products fro
 - The key principle is that **no new development occurs on the legacy system**. Over time, as new business needs arise, the data and logic will be incrementally "strangled" out of the old system and into the new architecture. Eventually, the legacy system will be completely empty and can be safely decommissioned.
 
 This incremental, business-driven approach minimizes risk and ensures that the migration delivers value at every step.
-
-## Managing the Data Product Marketplace
-
-A key function of the platform is to support the use of released data products through a **marketplace**. This marketplace should provide a user-friendly catalog of all available data products.
-
-The catalog acts as a central hub, offering clear visibility into the **data product portfolio** and the relationships between products. It displays crucial information for users, including:
-
-- The **development teams** responsible for each product.
-- The **business cases** the products are designed to support.
-- The specific **physical assets** exposed by each product.
-- The **concepts in the defined ontologies** that the products reference.
-
-This comprehensive overview enables users to easily discover and understand how different data products connect and what purpose they serve.
 
 ## From Data Products to Knowledge Graph: Unlocking Intelligence
 
