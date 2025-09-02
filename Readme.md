@@ -7,7 +7,7 @@ This article is based on my experience of building data products platforms where
 
 The main reason for building data products is the prevalence of data silos and legacy systems, which hinder seamless data integration and limit the potential of analytics projects across the enterprise. The lack of robust data governance can lead to fragmented and unreliable data, making it difficult to generate accurate and actionable insights. 
 
-The aim of data platform should be to reduce the complexity of these systems and their associated costs, through standardization, abstraction and automation.The modularization of the architecture allows for a reduction in complexity and, consequently, the cognitive load on the teams. Data products is that unit of modularization. 
+The aim of data platform should be to reduce the complexity of these systems and their associated costs, through standardization, abstraction and automation.The modularization of the architecture allows for a reduction in complexity and, consequently, the cognitive load on the teams. Data products is that unit of modularization. In later sections, we will briefly touch on what a data product needs. A data product comprises data, metadata, interfaces, transformations, quality checks, governance, and user experience packaged for reliable consumption.
 
 ## The Challenge
 
