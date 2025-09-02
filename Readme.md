@@ -1,7 +1,8 @@
 
 # Data Products Platform Blueprint
 
-This article is based on my experience of building data products platforms across two different organizations, where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation. So let’s get started.
+This article is based on my experience of building data products platforms where I witnessed how turning data into modular, reusable products can be a true driver of enterprise transformation. So let’s get started.
+
 
 ## Why do we need Data Products
 
@@ -13,13 +14,10 @@ The aim of data platform should be to reduce the complexity of these systems and
 
 The main challenge in adopting data products is the need for a significant cultural shift, technical complexity and organizational silos. The adoption of data products can also be hindered by resistance to change, which can be addressed by involving users in the implementation process and emphasizing the benefits of the new system.
 
-## Foundational Data Products
+## Foundational and Integrated Data Products
+Foundational data products are the building blocks whose goal is to expose high-quality data in its pure form to support the development of other applications (integrated/consumer ready data products). They are close to the source system and focus on single domain ownership. They aim to expose data to support multiple use cases, both of analytical and transactional nature. Their value is greater when the data is of high quality, easily accessible, and reusable over time. A foundational data product is a unit of modularization within the data architecture that can be managed independently during its life cycle. 
 
-Building data products begin with foundational data products, a new type of digital product, setting aside transactional and analytical applications, whose goal is to expose high-quality data in its pure form to support the development of other applications (consumer ready data products). Foundational data products aim to expose data to support multiple use cases, both of analytical and transactional nature. Their value is greater when the data is of high quality, easily accessible, and reusable over time.
-
-While analytical applications directly generate value for business users measurable with leading indicators, this is not possible for foundational data products. The objective of a data product is to make one or more data assets readily usable in multiple use cases.
-
-A foundational data product is a unit of modularization within the data architecture that can be managed independently during its life cycle.
+Integrated data products are higher-level assets created by combining multiple foundational products. They serve specific business needs by delivering cross-domain insights and analytics-ready datasets.
 
 Overall data products promote four key characteristics identified by the acronym FAIR, which stands for findability, accessibility, interoperability, and reusability, intending to maximize the utility of data, promote collaboration, and foster the advancement of knowledge and innovation.
 
